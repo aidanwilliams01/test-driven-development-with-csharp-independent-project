@@ -1,17 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Bakery.Models;
 
-namespace BakeryTest.Tests
+namespace Bakery.Tests
 {
   [TestClass]
-  public class ScorerTests
+  public class BreadTests
   {
 
     [TestMethod]
-    public void ScorerConstructor_CreatesInstanceOfScorer_Scorer()
+    public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
-      // Scorer newScorer = new Scorer();
-      // Assert.AreEqual(typeof(Scorer), newScorer.GetType());
+      Bread newBread = new Bread();
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
   }
 }
