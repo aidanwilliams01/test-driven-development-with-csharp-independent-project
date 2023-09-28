@@ -31,5 +31,13 @@ namespace Bakery.Tests
       newBread.Loaves = newLoaves;
       Assert.AreEqual(newLoaves, newBread.Loaves);
     }
+
+    [TestMethod]
+    public void CalculateCost_ReturnsDealCost_Float()
+    {
+      Bread newBread = new Bread(3);
+      float cost = newBread.CalculateCost();
+      Assert.AreEqual(10, cost);
+    }
   }
 }
