@@ -21,4 +21,9 @@ namespace Bakery.Models
         return result;
       }
     }
+
+    public class Pastry
+    {
+      
+    }
   }
