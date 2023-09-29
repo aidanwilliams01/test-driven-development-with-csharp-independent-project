@@ -33,7 +33,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void CalculateCost_ReturnsDealCost_Float()
+    public void CalculateCost_ReturnsCost_Float()
     {
       Bread newBread = new Bread(3);
       float cost = newBread.CalculateCost();

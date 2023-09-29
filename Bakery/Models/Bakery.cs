@@ -15,16 +15,10 @@ namespace Bakery.Models
 
       public float CalculateCost()
       {
-        if (Loaves % 3 == 0)
-        {
-          int loaves = Loaves - 1;
-          float result = loaves * 5;
-          return result;
-        }
-        else
-        {
-          return 0;
-        }
+        int freeLoaves = Loaves / 3;
+        int loaves = Loaves - freeLoaves;
+        float result = loaves * 5;
+        return result;
       }
     }
   }
