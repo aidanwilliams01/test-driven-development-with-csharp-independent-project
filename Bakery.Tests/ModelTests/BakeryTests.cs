@@ -69,5 +69,13 @@ namespace Bakery.Tests
       newPastry.Pastrys = newPastrys;
       Assert.AreEqual(newPastrys, newPastry.Pastrys);
     }
+
+    [TestMethod]
+    public void CalculateCost_ReturnsCost_Float()
+    {
+      Pastry newPastry = new Pastry(8);
+      float cost = newPastry.CalculateCost();
+      Assert.AreEqual(12, cost);
+    }
   }
 }

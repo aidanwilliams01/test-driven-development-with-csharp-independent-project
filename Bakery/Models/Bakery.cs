@@ -30,5 +30,13 @@ namespace Bakery.Models
       {
         Pastrys = pastrys;
       }
+
+      public float CalculateCost()
+      {
+        int freePastrys = Pastrys / 4;
+        int pastrys = Pastrys - freePastrys;
+        float result = pastrys * 2;
+        return result;
+      }
     }
   }
