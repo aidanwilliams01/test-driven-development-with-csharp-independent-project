@@ -60,5 +60,14 @@ namespace Bakery.Tests
       int result = newPastry.Pastrys;
       Assert.AreEqual(pastrys, result);
     }
+
+    [TestMethod]
+    public void SetPastrys_SetsValueOfPastrys_Void()
+    {
+      Pastry newPastry = new Pastry(3);
+      int newPastrys = 4;
+      newPastry.Pastrys = newPastrys;
+      Assert.AreEqual(newPastrys, newPastry.Pastrys);
+    }
   }
 }
