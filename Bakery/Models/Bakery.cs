@@ -20,18 +20,18 @@ namespace Bakery.Models
 
     public class Pastry
     {
-      public int Pastrys { get; set; }
+      public int Pastries { get; set; }
 
-      public Pastry(int pastrys)
+      public Pastry(int pastries)
       {
-        Pastrys = pastrys;
+        Pastries = pastries;
       }
 
       public float CalculateCost()
       {
-        int freePastrys = Pastrys / 4;
-        int pastrys = Pastrys - freePastrys;
-        float result = pastrys * 2;
+        int freePastries = Pastries / 4;
+        int pastries = Pastries - freePastries;
+        float result = pastries * 2;
         return result;
       }
     }

@@ -53,21 +53,21 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void GetPastrys_ReturnPastrys_Int()
+    public void GetPastries_ReturnPastries_Int()
     {
-      int pastrys = 3;
-      Pastry newPastry = new Pastry(pastrys);
-      int result = newPastry.Pastrys;
-      Assert.AreEqual(pastrys, result);
+      int pastries = 3;
+      Pastry newPastry = new Pastry(pastries);
+      int result = newPastry.Pastries;
+      Assert.AreEqual(pastries, result);
     }
 
     [TestMethod]
-    public void SetPastrys_SetsValueOfPastrys_Void()
+    public void SetPastries_SetsValueOfPastries_Void()
     {
       Pastry newPastry = new Pastry(3);
-      int newPastrys = 4;
-      newPastry.Pastrys = newPastrys;
-      Assert.AreEqual(newPastrys, newPastry.Pastrys);
+      int newPastries = 4;
+      newPastry.Pastries = newPastries;
+      Assert.AreEqual(newPastries, newPastry.Pastries);
     }
 
     [TestMethod]
