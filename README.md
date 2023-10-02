@@ -1,6 +1,6 @@
-# (Application Name)
+# Pierre's Bakery
 
-#### (Brief description of application)
+#### A C# console application for a bakery.
 
 #### By Aidan Williams
 
@@ -11,6 +11,8 @@
 * _MSTest_
 
 ## Description
+
+A console application for a bakery where users can order pastrys and loaves of bread.
 
 ## Setup Instructions
 
