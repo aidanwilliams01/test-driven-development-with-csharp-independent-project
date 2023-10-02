@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Xml.XPath;
-
 namespace Bakery.Models
-  {
+{
     public class Bread
     {
       public int Loaves { get; set; }
