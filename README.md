@@ -12,7 +12,7 @@
 
 ## Description
 
-A console application for a bakery where users can order pastries and loaves of bread.
+A console application for a bakery where users can add pastries and loaves of bread to an order and view the total cost.
 
 ## Setup Instructions
 
